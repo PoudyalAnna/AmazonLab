@@ -47,9 +47,7 @@ namespace Hello_World
             }
             Console.ReadLine();
 
-            //ho to change
-
-            // need to change
+           
 
 
         }
