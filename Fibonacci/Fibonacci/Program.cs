@@ -1,4 +1,11 @@
-﻿using System;
+﻿
+/* Project Name : Fibonacci
+ *  Auther Name : Anita Poudyal
+ *  Date: 8/12/19
+ *  */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,41 +17,26 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
-            string[] DaysOfsWeek = { "Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri" };
-            string[] arrWek = new string[7];
-            string name = "The edg tech";
-            Console.WriteLine(DaysOfsWeek.Length.ToString());
+            int val1 = 0;
+            int val2 = 1;
+            int val3;
+            int number;
 
-            foreach(string day in DaysOfsWeek)
+            Console.WriteLine("Please enter a number: ");
+            number = Convert.ToInt32(Console.ReadLine());
+            // Printing val1 and val 2
+            Console.Write(val1 + " " + val2 + " ");
+            for (int i = 0; i < number; i++)
             {
-                Console.WriteLine("the day in week" + day);
+                val3 = val1 + val2;
+               
+                Console.Write( val3 + " ");
+                val1 = val2;
+                val2 = val3;
             }
-
-
-
-            for (int val1 = 0; val1 <= DaysOfsWeek.Length; val1++)
-            {
-                Console.WriteLine("the day in week inside for loop: " + DaysOfsWeek[val1]);
-
-            }
-
-            string newString = name.Insert(8, ">HELLO!<");
-            Console.WriteLine(newString);
-
-
-
-            try
-            {
-
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
             Console.ReadLine();
 
+          
         }
 
     }
