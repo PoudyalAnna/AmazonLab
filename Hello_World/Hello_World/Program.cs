@@ -17,10 +17,24 @@ namespace Hello_World
             double BMI;
 
             Console.WriteLine("Pls Enter Your Height  in inches: ");
-            dblHeitht = Convert.ToInt32(Console.ReadLine());
+           // dblHeitht = Convert.ToInt32(Console.ReadLine());
+            // validate
+            while (!double.TryParse(Console.ReadLine(),out dblHeitht) || dblHeitht < 0)
+            {
+                Console.WriteLine("Not valid. Mist be a positive number");
+            }
+
+
 
             Console.WriteLine("Pls Enter Your Weight in Pound: ");
-            dblWeight = Convert.ToInt32(Console.ReadLine());
+            
+           // dblWeight = Convert.ToInt32(Console.ReadLine());
+            while (!double.TryParse(Console.ReadLine(), out dblWeight) || dblWeight < 0)
+            {
+                Console.WriteLine("Not valid. Mist be a positive number");
+            }
+
+           
 
 
             //calculate
