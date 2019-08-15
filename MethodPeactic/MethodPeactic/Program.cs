@@ -19,6 +19,8 @@ namespace MethodPeactic
 
             Console.WriteLine( myEmployee.fname + " " +  myEmployee.lname +  " " + myEmployee.empDepartment);
             Console.ReadLine();
+
+
         }
         static void department(Employee dept )
         {
@@ -38,6 +40,10 @@ namespace MethodPeactic
             public string fname;
             public string lname;
             public string  empDepartment;
+        }
+        public void setname()
+        {
+
         }
     }
 

@@ -1,0 +1,3 @@
+﻿This is my text file that i want to add to my pflder.
+Testing
+testing
