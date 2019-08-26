@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0309372A-B16A-4708-A5F5-FCE41B987CE1}</ProjectGuid>
+    <ProjectGuid>{F72090D4-9C56-4396-B074-95EA5925B96A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MethodPeactic</RootNamespace>
-    <AssemblyName>MethodPeactic</AssemblyName>
+    <RootNamespace>objectorientedClass</RootNamespace>
+    <AssemblyName>objectorientedClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

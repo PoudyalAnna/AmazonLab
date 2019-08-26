@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0309372A-B16A-4708-A5F5-FCE41B987CE1}</ProjectGuid>
+    <ProjectGuid>{10183EE4-C36A-47BD-82F7-7957FACF097A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MethodPeactic</RootNamespace>
-    <AssemblyName>MethodPeactic</AssemblyName>
+    <RootNamespace>Exercises_with_Strings</RootNamespace>
+    <AssemblyName>Exercises with Strings</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

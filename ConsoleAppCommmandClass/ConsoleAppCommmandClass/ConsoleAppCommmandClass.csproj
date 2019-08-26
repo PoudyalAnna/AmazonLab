@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0309372A-B16A-4708-A5F5-FCE41B987CE1}</ProjectGuid>
+    <ProjectGuid>{C2977CC5-0F93-456E-A434-CF0B71F9FDEF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MethodPeactic</RootNamespace>
-    <AssemblyName>MethodPeactic</AssemblyName>
+    <RootNamespace>ConsoleAppCommmandClass</RootNamespace>
+    <AssemblyName>ConsoleAppCommmandClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="commandPrompt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

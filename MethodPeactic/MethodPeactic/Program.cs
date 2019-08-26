@@ -11,15 +11,6 @@ namespace MethodPeactic
         static void Main(string[] args)
 
         {
-           Employee myEmployee = new Employee();
-           myEmployee.fname = "John";
-            myEmployee.lname = "test";
-            myEmployee.empDepartment = null  ;
-            department(myEmployee);
-
-            Console.WriteLine( myEmployee.fname + " " +  myEmployee.lname +  " " + myEmployee.empDepartment);
-            Console.ReadLine();
-
 
         }
         static void department(Employee dept )
@@ -35,17 +26,7 @@ namespace MethodPeactic
                 //  true block
             }
         }
-        class Employee
-        {
-            public string fname;
-            public string lname;
-            public string  empDepartment;
-        }
-        public void setname()
-        {
-
-        }
-    }
+      
 
 }
 

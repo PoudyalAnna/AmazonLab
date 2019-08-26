@@ -16,7 +16,9 @@ namespace consoleAppStreeamReadet
          //   mystream = null;
          //step 1
 
-            
+           
+        }
+    } 
             FileStream myfile = new FileStream("textfile1.txt", FileMode.Open, FileAccess.Read);
 
             //step2
@@ -27,6 +29,4 @@ namespace consoleAppStreeamReadet
             Console.WriteLine(myFilereader.ReadToEnd());
             Console.ReadLine();
                  
-        }
-    }
 }

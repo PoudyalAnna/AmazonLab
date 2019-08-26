@@ -8,14 +8,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
 
         {
-            Student myStudent = new Student();
-            myStudent.fname = "John";
-            myStudent.lname = "test";
-            myStudent.enrolled = false;
-            enrollStudent(myStudent);
 
-            Console.WriteLine(myStudent.enrolled);
-            Console.ReadLine();
         }
         static void enrollStudent(Student stu)
         {
