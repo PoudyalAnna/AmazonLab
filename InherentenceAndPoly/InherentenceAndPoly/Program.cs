@@ -18,6 +18,8 @@ namespace InherentenceAndPoly
 
             myAccount = new SavingAccount(2000, 0);
             myAccount.withdrawal(1500);
+            Console.WriteLine(myAccount.GetType());
+
 
             Console.ReadLine();
         }
