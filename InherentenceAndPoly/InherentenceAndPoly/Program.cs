@@ -18,6 +18,14 @@ namespace InherentenceAndPoly
 
             myAccount = new SavingAccount(2000, 0);
             myAccount.withdrawal(1500);
+            myAccount.Deposit(500);
+
+
+            SavingAccount mySav = new SavingAccount(1000, 2);
+            mySav.interestRate = 0.10m;
+            mySav.ProcessProfit();
+            Console.WriteLine("profit" + mySav.Balance);
+            Console.WriteLine(myAccount.Balance);           
             Console.WriteLine(myAccount.GetType());
 
 
