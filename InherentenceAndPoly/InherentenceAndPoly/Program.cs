@@ -5,20 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace InherentenceAndPoly
-{
-    class Program
+    {
+    // Polymorphism INplementation
+    class Program      
     {
         static void Main(string[] args)
         {
-            CheackingAccount mycheackingAccout = new CheackingAccount(1000);
-            Console.WriteLine("Intitial withdraw of $250");
-            mycheackingAccout.Withdeawl(250);
-          //  Console.ReadLine();
-          
+            Account myAccount;
+            myAccount = new CheackingAccount(1000);
+            myAccount.withdrawal(500);
+            Console.WriteLine(myAccount.GetType());
 
-           
-            Console.WriteLine("Intitial withdraw of850");
-            mycheackingAccout.Withdeawl(850);
+            myAccount = new SavingAccount(2000, 0);
+            myAccount.withdrawal(1500);
+
             Console.ReadLine();
         }
     }

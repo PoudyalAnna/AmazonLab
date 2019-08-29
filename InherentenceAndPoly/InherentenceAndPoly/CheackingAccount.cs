@@ -9,11 +9,11 @@ namespace InherentenceAndPoly
     // inhetited from Account class, child slass Checking Account
     class CheackingAccount : Account
     {
-        public CheackingAccount(decimal initalBalance) : base(initalBalance) 
+        public  CheackingAccount(decimal initalBalance) : base(initalBalance) 
             {
 
             } 
-            public Transaction Withdeawl (decimal amount)
+            public override Transaction withdrawal(decimal amount)
             {
             Transaction thisTransaction = new Transaction();
            thisTransaction.AccoutNumber = AccountNumber;

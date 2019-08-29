@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InherentenceAndPoly
 {
-    class Account
+      abstract class Account
     {
 
         // Inheritence
@@ -23,5 +23,8 @@ namespace InherentenceAndPoly
             Balance += amount;
         }
 
+        //child class can implement its own withdrawal methiod with custom logic
+
+        public abstract Transaction withdrawal(decimal amount);
     }
 }
