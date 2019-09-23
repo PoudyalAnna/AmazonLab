@@ -1,0 +1,30 @@
+select * from country;
+
+select * from country
+where Region = 'Caribbean';
+
+select * from country
+where Population between 6000000 and 12000000;
+
+select * from city 
+where name like 'f%';
+
+select name, localname  from country 
+where LocalName <> name;
+
+
+
+select * from city
+where CountryCode = 'BRA'  ;
+
+select * from city  where name like 'spring%';
+
+select * from country 
+where   IndepYear > 1900
+
+select * from countrylanguage 
+where   CountryCode = 'USA';
+
+select * from city 
+where name like '[c-r]% ';
+
